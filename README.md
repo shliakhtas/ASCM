@@ -34,6 +34,7 @@
 </br>
 <b>Сreating a dataset from the rental site</b> | <a href='https://colab.research.google.com/github/shliakhtas/ASCM/blob/main/rental_housing.ipynb'>open in colab<a>
 </br>
+ </br>
 <ul>
 <li>parsing a rental site using BeautifulSoup and creating pandas DataFrame with the following columns: "district", "street", "sity", "price", "price_dollars", "rooms", "squere", "description", "date".</li>
 <li>Data correction: removal of abbreviations in names, whitespaces, rows with no street names, date corrections from "Tommorow", "hover ago" in correct format, conversion of columns ' price ',' price_dollars', "rooms", "squere" from string to numerical format.</li>

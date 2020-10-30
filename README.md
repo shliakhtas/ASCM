@@ -1,7 +1,7 @@
 # ASCM
 <b>Antropo-spatial capacity modeling(ASCM) | </b>
 <br />
- It`s a git repo for technical part of same-named PhD desertation and open-sorce scientific project, based on it 
+ It`s a git repo for technical part of same-named PhD dissertation and open-sorce scientific project, based on it 
  <br />
  <br />
  <b>Metological steps for each type of integral indicators of economic life in anthropospatial space Big Data</b>

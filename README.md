@@ -32,7 +32,7 @@
 10) visualization space saturation
 - creating an interactive web page showing the saturation defined earlier
 </br>
-<b>Creating dataset from rental site</b> | <a href='https://colab.research.google.com/github/shliakhtas/ASCM/blob/main/rental_housing.ipynb'>open in colab<a>
+<b>Сreating a dataset from the rental site</b> | <a href='https://colab.research.google.com/github/shliakhtas/ASCM/blob/main/rental_housing.ipynb'>open in colab<a>
 </br>
 <ul>
 <li>parsing a rental site using BeautifulSoup and creating pandas DataFrame with the following columns: "district", "street", "sity", "price", "price_dollars", "rooms", "squere", "description", "date".</li>

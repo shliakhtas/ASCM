@@ -25,7 +25,7 @@
 - downsizing heatmaps
 7) visualization of spatial features
 - creating an interactive web page displaying previously defined spatial features
-8) subtracting voronasichennya
+8) subtracting space saturation
 - calculation for each pixel of the value of coverage of integral indicators of economic life in anthropospatial space by a certain zone around it
 9) forecast of space saturation
 - prediction of the future type of space saturation images on the basis of existing images in specific time-series, thanks to the application of linear regression neural networks to them

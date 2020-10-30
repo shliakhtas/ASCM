@@ -31,3 +31,21 @@
 - prediction of the future type of space saturation images on the basis of existing images in specific time-series, thanks to the application of linear regression neural networks to them
 10) visualization space saturation
 - creating an interactive web page showing the saturation defined earlier
+</br>
+<b>Creating dataset from rental site</b> <a href='https://colab.research.google.com/github/shliakhtas/ASCM/blob/main/real_estate_parser.ipynb'>open in colab<a>
+</br>
+<ul>
+<li>parsing a rental site using BeautifulSoup and creating pandas DataFrame with the following columns: "district", "street", "sity", "price", "price_dollars", "rooms", "squere", "description", "date".</li>
+<li>Data correction: removal of abbreviations in names, whitespaces, rows with no street names, date corrections from "Tommorow", "hover ago" in correct format, conversion of columns ' price ',' price_dollars', "rooms", "squere" from string to numerical format.</li>
+<li>Creating additional columns with the price per unit of space and per room</li>
+<li>Creating an ellipse around the city center, extracting only the streets included in it from the OpenStreet Maps dataset and creating the corresponding DataFrame </li>
+<li>Create in that table columns with street names and their types from such possible ones:
+"Lane", "row", "street", "driveway", "avenue", "square","embankment", "boulevard", "passageway", and "others"</li>
+<li>Merge two tables into one by the "street" column</li>
+<li>Creation of new columns with longitude and latitude, thanks to the processing of the "geometry" column</li>
+<li>Grouping by "street" column and defining for each group the average price per unit of area and per room, it count, deleting groups where count is less than 3 and creating DataFrame with this data.</li>
+<li>Adding this new data to the previous table by merging it with this table in the "street" column.</li>
+<li>Creation of the function for grading a column into 5 categories, implementation of this function for 'mean_per_room', 'mean_per_squere', 'count' columns and creation of an additional color column for these columns, depending on the corresponding grading.</li>
+<li>grading by dates depending on season winter-spring-summer-autumn for each year</li>
+<li>Visualization of streets depending on the gradation of some column thanks to contextily and matplotlib.pyplot.</li>
+  </ul>

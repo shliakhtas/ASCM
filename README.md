@@ -14,7 +14,7 @@
 - creating mechanisms to determine the correctness of data, for example, by comparing results from several sources, comparing different parts of images, etc.
 3) visualization of data analysis
 - creation of interactive web page displaying the received data for the largest cities of Ukraine
-4) species prediction
+4) view prediction
 - prediction of the future view of images based on existing images in specific time-series, thanks to the application of linear regression neural networks to them
 5) data visualization
 - creating an interactive web page displaying previously defined spatial features

@@ -4,7 +4,7 @@
  It`s a git repo for technical part of same-named PhD dissertation and open-sorce scientific project, based on it 
  <br />
  <br />
- <b>Metodological steps for each type of integral indicators of economic life in anthropospatial space Big Data</b>
+ <b>Metodological steps for each type of Big Data, based on integral indicators of economic life in anthropospatial space </b>
  <br />
 1) creation of dataset
 - extraction and processing of spatial data from resources that allow to see in real time integral indicators of economic life in anthropospatial space.
